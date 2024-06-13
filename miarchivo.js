@@ -30,14 +30,17 @@ do {
                         if (nike == "1"){
                             alert("Has seleccionado Zapatillas NIKE Jordan");
                             precio = 125;
+                            cantidad = parseInt(prompt('Cuantas unidades queres comprar?'));
                             repetirNike = false;        
                         }else if (nike == "2"){
                             alert("Has seleccionado Zapatillas NIKE Futbol");
                             precio = 100;
+                            cantidad = parseInt(prompt('Cuantas unidades queres comprar?'));
                             repetirNike = false;       
                         }else if (nike == "3"){
                             alert("Has seleccionado Zapatillas NIKE Running");
                             precio = 130;
+                            cantidad = parseInt(prompt('Cuantas unidades queres comprar?'));
                             repetirNike = false;
                         }else{
                             alert("Debes seleccionar un zapatillas del listado.");
@@ -53,14 +56,17 @@ do {
                         if (adidas == "1"){
                             alert("Has seleccionado Zapatillas ADIDAS basquet");
                             precio = 150;
+                            cantidad = parseInt(prompt('Cuantas unidades queres comprar?'));
                             repetirAdidas = false;
                         }else if (adidas == "2"){
                             alert("Has seleccionado Zapatillas ADIDAS Futbol");
                             precio = 100;
+                            cantidad = parseInt(prompt('Cuantas unidades queres comprar?'));
                             repetirAdidas = false;
                         }else if (adidas == "3"){
                             alert("Has seleccionado Zapatillas ADIDAS Running");
                             precio = 70;
+                            cantidad = parseInt(prompt('Cuantas unidades queres comprar?'));
                             repetirAdidas = false;
                         }else{
                             alert("Debes seleccionar un zapatillas del listado.");
@@ -87,14 +93,17 @@ do {
                         if (deportivas == "1"){
                             alert("Has seleccionado Camperas Deportivas Amarilla");
                             precio = 50;
+                            cantidad = parseInt(prompt('Cuantas unidades queres comprar?'));
                             repetirCamperasDeportivas = false;
                         }else if (deportivas == "2"){
                             alert("Has seleccionado Camperas Deportivas Azul");
                             precio = 50;
+                            cantidad = parseInt(prompt('Cuantas unidades queres comprar?'));
                             repetirCamperasDeportivas = false;
                         }else if (deportivas == "3"){
                             alert("Has seleccionado Camperas Deportivas Roja");
                             precio = 50;
+                            cantidad = parseInt(prompt('Cuantas unidades queres comprar?'));
                             repetirCamperasDeportivas = false;
                         }else{
                             alert("Debes seleccionar una campera del listado.");
@@ -110,14 +119,17 @@ do {
                         if (casuales == "1"){
                             alert("Has seleccionado Camperas Casual negra");
                             precio = 30;
+                            cantidad = parseInt(prompt('Cuantas unidades queres comprar?'));
                             repetirCamperasCasuales = false;
                         }else if (casuales == "2"){
                             alert("Has seleccionado Camperas Casual azul");
                             precio = 40;
+                            cantidad = parseInt(prompt('Cuantas unidades queres comprar?'));
                             repetirCamperasCasuales = false;
                         }else if (casuales == "3"){
                             alert("Has seleccionado Camperas Casual blanca");
                             precio = 35;
+                            cantidad = parseInt(prompt('Cuantas unidades queres comprar?'));
                             repetirCamperasCasuales = false;
                         }else{
                             alert("Debes seleccionar una campera del listado.");
@@ -133,14 +145,17 @@ do {
                         if (cuero == "1"){
                             alert("Has seleccionado Camperas Cuero negra");
                             precio = 120;
+                            cantidad = parseInt(prompt('Cuantas unidades queres comprar?'));
                             repetirCamperasCuero = false;
                         }else if (cuero == "2"){
                             alert("Has seleccionado Camperas Cuero marron");
                             precio = 150;
+                            cantidad = parseInt(prompt('Cuantas unidades queres comprar?'));
                             repetirCamperasCuero = false;
                         }else if (cuero == "3"){
                             alert("Has seleccionado Camperas Cuero gris");
                             precio = 100;
+                            cantidad = parseInt(prompt('Cuantas unidades queres comprar?'));
                             repetirCamperasCuero = false;
                         }else{
                             alert("Debes seleccionar una campera del listado.");
@@ -166,10 +181,12 @@ do {
                         if (pantalonesDeportivos == "1"){
                             alert("Has seleccionado Pantalones Deportivos Largo");
                             precio = 50;
+                            cantidad = parseInt(prompt('Cuantas unidades queres comprar?'));
                             repetirPantalonesDeportivos = false;
                         }else if (pantalonesDeportivos == "2"){
                             alert("Has seleccionado Pantalones Deportivos Corto");
                             precio = 30;
+                            cantidad = parseInt(prompt('Cuantas unidades queres comprar?'));
                             repetirPantalonesDeportivos = false;
                         }else{
                             alert("Debes seleccionar un pantalon del listado.");
@@ -185,14 +202,17 @@ do {
                         if (pantalonesJeans == "1"){
                             alert("Has seleccionado Pantalones Jeans Azul claro");
                             precio = 40;
+                            cantidad = parseInt(prompt('Cuantas unidades queres comprar?'));
                             repetirPantalonesJeans = false;
                         }else if (pantalonesJeans == "2"){
                             alert("Has seleccionado Pantalones Jeans Azul marino");
                             precio = 50;
+                            cantidad = parseInt(prompt('Cuantas unidades queres comprar?'));
                             repetirPantalonesJeans = false;
                         }else if (pantalonesJeans == "3"){
                             alert("Has seleccionado Pantalones Jeans Negro");
                             precio = 30;
+                            cantidad = parseInt(prompt('Cuantas unidades queres comprar?'));
                             repetirPantalonesJeans = false;
                         }else{
                             alert("Debes seleccionar un pantalon del listado.");
@@ -208,14 +228,17 @@ do {
                         if (pantalonesCasuales == "1"){
                             alert("Has seleccionado Pantalones Casuales Negro");
                             precio = 20;
+                            cantidad = parseInt(prompt('Cuantas unidades queres comprar?'));
                             repetirPantalonesCasuales = false;
                         }else if (pantalonesCasuales == "2"){
                             alert("Has seleccionado Pantalones Casuales Marron");
                             precio = 25;
+                            cantidad = parseInt(prompt('Cuantas unidades queres comprar?'));
                             repetirPantalonesCasuales = false;
                         }else if (pantalonesCasuales == "3"){
                             alert("Has seleccionado Pantalones Casuales Gris");
                             precio = 15;
+                            cantidad = parseInt(prompt('Cuantas unidades queres comprar?'));
                             repetirPantalonesCasuales = false;
                         }else{
                             alert("Debes seleccionar un pantalon del listado.");
@@ -229,12 +252,11 @@ do {
             }while (repetirPantalones);
             break;
         default:
-                alert("No has seleccionado una opción");
+            alert("No has seleccionado una opción");
+            cantidad = 0;
     }
 
-    cantidad = parseInt(prompt('Cuantas unidades queres comprar?'));
-
-    while (isNaN(cantidad) || cantidad <= 0) {
+    while (isNaN(cantidad)) {
         alert('Debe agregar un numero');
         cantidad = parseInt(prompt('Cuantas unidades queres comprar?')); 
     }
